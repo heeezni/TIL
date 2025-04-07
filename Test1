@@ -1,0 +1,11 @@
+public class Mytes {
+
+ public static void main(String[] args) {
+
+int a = 3;
+int num = a % 2;
+
+if (num == 1) {
+System.out.prinln (a + "은(는) 홀수입니다.");
+} else {
+System.out.println (a + "은(는) 짝수입니다.");
