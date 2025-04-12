@@ -8,7 +8,7 @@ public class 숫자맞추기게임 {
 		int answer = (int)(Math.random()*100) +1; // 랜덤 수 구하기
 		int count = 0; //입력횟수 저장변수 선언 
 		
-		while (true) {
+		while (true) { //userNum은 while루프 내에서 선언 ->(userNum == answer) 안됨. 
 
 				Scanner sc = new Scanner (System.in);
 				int userNum = sc.nextInt( );
